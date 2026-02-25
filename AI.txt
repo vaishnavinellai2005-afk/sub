@@ -1,0 +1,25 @@
+# Create and write to a text file about AI
+
+content = """Artificial Intelligence (AI)
+
+Artificial Intelligence (AI) is the simulation of human intelligence in machines.
+It enables machines to think, learn, and make decisions.
+
+AI is used in many fields such as:
+- Healthcare
+- Education
+- Banking
+- Transportation
+- Robotics
+
+Some common AI technologies include Machine Learning, Deep Learning, 
+Natural Language Processing (NLP), and Computer Vision.
+
+AI helps improve efficiency, accuracy, and automation in daily life.
+"""
+
+# Open file in write mode
+with open("AI.txt", "w") as file:
+    file.write(content)
+
+print("Text file 'AI.txt' created successfully.")
