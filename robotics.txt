@@ -1,0 +1,36 @@
+# Create a text file about Robotics
+
+content = """Introduction to Robotics
+
+Robotics is a branch of mechanical and electronic engineering that deals with the design,
+construction, and operation of robots. Robots are machines that can perform tasks automatically
+with speed and accuracy.
+
+Types of Robots:
+1. Industrial Robots – Used in factories for welding, painting, and assembly.
+2. Mobile Robots – Used for delivery and exploration.
+3. Humanoid Robots – Designed to look and act like humans.
+4. Medical Robots – Assist doctors in surgeries.
+
+Applications of Robotics:
+- Manufacturing industries
+- Space exploration
+- Healthcare
+- Defense systems
+- Agriculture
+
+Advantages of Robotics:
+- High precision and accuracy
+- Work in dangerous environments
+- Increased productivity
+- Reduced human effort
+
+Robotics is one of the fastest-growing fields in the world and plays an important
+role in automation and future technology.
+"""
+
+# Writing to file
+with open("Robotics.txt", "w") as file:
+    file.write(content)
+
+print("Text file 'Robotics.txt' created successfully.")
